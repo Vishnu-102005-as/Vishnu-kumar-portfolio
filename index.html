@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Vishnu Kumar A S — Computer Science Engineering Student, App Developer & UI/UX Designer based in Chennai." />
+  <title>Vishnu Kumar A S — Portfolio</title>
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== THEME TOGGLE ===== -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5" />
+      <line x1="12" y1="1" x2="12" y2="3" />
+      <line x1="12" y1="21" x2="12" y2="23" />
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+      <line x1="1" y1="12" x2="3" y2="12" />
+      <line x1="21" y1="12" x2="23" y2="12" />
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+    </svg>
+  </button>
+
+  <!-- ===== DOT NAVIGATION ===== -->
+  <nav class="dot-nav" aria-label="Section navigation">
+    <button data-target="hero" aria-label="Home"></button>
+    <button data-target="about" aria-label="About"></button>
+    <button data-target="skills" aria-label="Skills"></button>
+    <button data-target="experience" aria-label="Experience"></button>
+    <button data-target="projects" aria-label="Projects"></button>
+    <button data-target="education" aria-label="Education"></button>
+    <button data-target="contact" aria-label="Contact"></button>
+  </nav>
+
+  <!-- ===== SCROLL CONTAINER ===== -->
+  <main class="scroll-container">
+
+    <!-- 1 · HERO -->
+    <section class="section hero" id="hero">
+      <div class="section-inner">
+        <div class="hero-profile reveal">
+          <img src="assets/Vishnu_Kumar.png" alt="Vishnu Kumar A S" />
+        </div>
+        <h1 class="hero-name reveal reveal-delay-1">Vishnu Kumar <span>A S</span></h1>
+        <p class="hero-tagline reveal reveal-delay-2">Computer Science Engineering &nbsp;·&nbsp; App Development
+          &nbsp;·&nbsp; UI/UX Design</p>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="arrow"></div>
+      </div>
+    </section>
+
+    <!-- 2 · ABOUT -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <p class="section-label reveal">About</p>
+        <h2 class="section-title reveal reveal-delay-1">A brief introduction</h2>
+        <p class="about-text reveal reveal-delay-2">
+          Computer Science Engineering student with hands-on experience in Flutter app
+          development, UI/UX design, and SEO-driven digital marketing. Built scalable mobile
+          interfaces, designed user-centric prototypes, and contributed to measurable engagement
+          growth during internships.
+        </p>
+        <div class="contact-grid reveal reveal-delay-3">
+          <a href="mailto:vishnukumaras2005@gmail.com" class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m2 7 10 6 10-6" />
+            </svg>
+            vishnukumaras2005@gmail.com
+          </a>
+          <a href="tel:+916385524790" class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07A19.5 19.5 0 0 1 5.1 13 19.86 19.86 0 0 1 2.05 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.6.66 2.35a2 2 0 0 1-.45 2.11L8.09 9.3a16 16 0 0 0 6.6 6.6l1.13-1.12a2 2 0 0 1 2.11-.45c.75.3 1.54.53 2.35.66A2 2 0 0 1 22 16.92z" />
+            </svg>
+            +91 638 552 4790
+          </a>
+          <a href="https://github.com/Vishnu-102005-as" target="_blank" rel="noopener" class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/vishnu-kumar-60086828a/" target="_blank" rel="noopener"
+            class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+          <div class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Chennai, India
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-inner">
+        <p class="section-label reveal">Technical Skills</p>
+        <h2 class="section-title reveal reveal-delay-1">Technologies I work with</h2>
+        <div class="skills-grid">
+          <div class="skill-category reveal reveal-delay-1">
+            <h3 class="skill-category-title">Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Dart</span>
+            </div>
+          </div>
+          <div class="skill-category reveal reveal-delay-2">
+            <h3 class="skill-category-title">App Development & UI/UX</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Flutter</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Adobe Photoshop</span>
+              <span class="skill-tag">After Effects</span>
+            </div>
+          </div>
+          <div class="skill-category reveal reveal-delay-3">
+            <h3 class="skill-category-title">Databases & Cloud</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Firebase Firestore</span>
+              <span class="skill-tag">Cloudinary</span>
+            </div>
+          </div>
+          <div class="skill-category reveal reveal-delay-4">
+            <h3 class="skill-category-title">Tools & Version Control</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Android Studio</span>
+            </div>
+          </div>
+          <div class="skill-category reveal reveal-delay-3">
+            <h3 class="skill-category-title">Core Competencies</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Cybersecurity</span>
+              <span class="skill-tag">Secure Coding</span>
+              <span class="skill-tag">AI Prompt Engineering</span>
+              <span class="skill-tag">OOP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-inner">
+        <p class="section-label reveal">Experience</p>
+        <h2 class="section-title reveal reveal-delay-1">Where I've worked</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal reveal-delay-2">
+            <div class="timeline-header">
+              <h3 class="timeline-company">Inypeople</h3>
+              <span class="timeline-date">June 2025</span>
+            </div>
+            <p class="timeline-role">Graphic Design & UI/UX Intern</p>
+            <ul class="timeline-points">
+              <li>Engineered high-fidelity UI/UX prototypes using Figma and Adobe Photoshop, focusing on user-centric
+                design principles.</li>
+              <li>Executed professional graphic design projects, adhering to corporate brand identity standards.</li>
+              <li>Facilitated corporate communications and coordination during the HR Festival 2K25.</li>
+            </ul>
+          </div>
+          <div class="timeline-item reveal reveal-delay-3">
+            <div class="timeline-header">
+              <h3 class="timeline-company">iStudio Technologies</h3>
+              <span class="timeline-date">May 2024</span>
+            </div>
+            <p class="timeline-role">SEO & Digital Marketing Intern</p>
+            <ul class="timeline-points">
+              <li>Analyzed client website performance using advanced SEO tools, identifying key areas for organic
+                growth.</li>
+              <li>Managed social media campaigns, driving engagement and implementing result-oriented strategies.</li>
+              <li>Developed SEO-optimized content to boost domain ratings and enhance backlink profiles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-inner">
+        <p class="section-label reveal">Projects</p>
+        <h2 class="section-title reveal reveal-delay-1">Selected work</h2>
+        <div class="projects-grid">
+          <div class="project-card reveal reveal-delay-2">
+            <h3 class="project-name">NP-Connect</h3>
+            <div class="project-tech">
+              <span>Flutter</span><span>Firebase</span><span>Cloudinary</span><span>Git</span><span>Photoshop</span>
+            </div>
+            <ul class="project-desc">
+              <li>Developed a secure, exclusive social blogging platform for college students to foster campus
+                engagement.</li>
+              <li>Integrated Firebase for real-time database management and secure user authentication.</li>
+              <li>Optimized storage and delivery by implementing Cloudinary, reducing app load times for image-heavy
+                posts.</li>
+              <li>Maintained clean, version-controlled source code using Git and Android Studio.</li>
+            </ul>
+          </div>
+          <div class="project-card reveal reveal-delay-3">
+            <h3 class="project-name">GradeZen</h3>
+            <div class="project-tech">
+              <span>Flutter</span><span>Dart</span>
+            </div>
+            <ul class="project-desc">
+              <li>Built an academic tracking application to help engineering students calculate semester grades
+                instantly.</li>
+              <li>Engineered a custom GPA and CGPA calculation algorithm processing complex credit-weightage systems.
+              </li>
+              <li>Designed an intuitive and responsive user interface leveraging UI/UX principles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · EDUCATION & ACTIVITIES -->
+    <section class="section" id="education">
+      <div class="section-inner">
+        <p class="section-label reveal">Education & Activities</p>
+        <h2 class="section-title reveal reveal-delay-1">Background</h2>
+        <div class="edu-card reveal reveal-delay-2">
+          <h3 class="edu-degree">B.E. Computer Science Engineering</h3>
+          <p class="edu-college">New Prince Shri Bhavani College of Engineering and Technology, Chennai</p>
+          <div class="edu-meta">
+            <span>2023 – 2027</span>
+            <span>CGPA: 7.87</span>
+          </div>
+        </div>
+        <div class="extra-grid">
+          <div class="extra-item reveal reveal-delay-3">
+            <h4 class="extra-role">Lead Coordinator — Inno-Hack 2K25 & Code-a-thon 2K26</h4>
+            <p class="extra-detail">Orchestrated large-scale technical events for up to 300 participants; managed
+              logistics, operations, and a team of 30+ volunteers.</p>
+          </div>
+          <div class="extra-item reveal reveal-delay-4">
+            <h4 class="extra-role">President & Secretary — NSS Club (NPSBCET)</h4>
+            <p class="extra-detail">Directed community service initiatives and boosted student engagement through
+              strategic leadership and project management.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="section-inner">
+        <p class="section-label reveal">Contact</p>
+        <h2 class="contact-heading reveal reveal-delay-1">Let's connect</h2>
+        <p class="contact-sub reveal reveal-delay-2">Open to opportunities, collaborations, and conversations.</p>
+        <div class="contact-links reveal reveal-delay-3">
+          <a href="mailto:vishnukumaras2005@gmail.com" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m2 7 10 6 10-6" />
+            </svg>
+            Email
+          </a>
+          <a href="tel:+916385524790" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07A19.5 19.5 0 0 1 5.1 13 19.86 19.86 0 0 1 2.05 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.6.66 2.35a2 2 0 0 1-.45 2.11L8.09 9.3a16 16 0 0 0 6.6 6.6l1.13-1.12a2 2 0 0 1 2.11-.45c.75.3 1.54.53 2.35.66A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Phone
+          </a>
+          <a href="https://github.com/Vishnu-102005-as" target="_blank" rel="noopener" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/vishnu-kumar-60086828a/" target="_blank" rel="noopener"
+            class="contact-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+        <p class="footer reveal reveal-delay-4">© 2026 Vishnu Kumar A S</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
